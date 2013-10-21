@@ -1,5 +1,32 @@
 {
-  "name" : "node-cabin"
-  ,"main" : "index"
-  ,"version":"0.1.0"
+  "name" : "logcabin",
+  "main" : "index",
+  "version":"1.0.0",
+  "author":{
+    "name": "Richard A. Jones",
+    "email": "the@talentedmrjones.com"
+  },
+  
+  "keywords": [
+    "express",
+    "logging",
+    "log"
+  ],
+
+  "contributors":[
+    {
+    "name": "Richard A. Jones",
+    "email": "the@talentedmrjones.com"
+    }
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:talentedmrjones/logcabin.git"
+  },
+
+  "dependencies":{
+  	"lodash":"2.2.1",
+    "loggly":"git://github.com/nodejitsu/node-loggly.git#v1.0.0-dev"
+  }
 }
